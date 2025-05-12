@@ -24,3 +24,58 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* DatePicker custom styles */
+.react-datepicker__day--selected {
+  background-color: #1e40af !important; /* dark blue */
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range {
+  background-color: #3b82f6 !important; /* blue-500 */
+  color: white !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #93c5fd !important; /* blue-300 */
+  color: #1e3a8a !important;
+  font-weight: bold !important;
+}
+
+.react-datepicker__day--today {
+  font-weight: bold !important;
+  color: #1d4ed8 !important; /* blue-700 */
+}
+
+.react-datepicker__header {
+  background-color: #f8fafc !important; /* slate-50 */
+  border-bottom: 1px solid #e2e8f0 !important; /* slate-200 */
+  font-weight: bold !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  color: #334155 !important; /* slate-700 */
+  font-weight: bold !important;
+}
+
+.react-datepicker__navigation {
+  top: 8px !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: #bfdbfe !important; /* blue-200 */
+  color: #1e3a8a !important;
+}
+
+/* Fix for autofill styling issues */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #111827 !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
