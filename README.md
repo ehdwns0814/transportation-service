@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 프리매칭 - 프리랜서 용차 매칭 플랫폼
 
 중개 수수료 없는 1:1 프리랜서 용차 매칭 플랫폼으로 기업과 프리랜서를 직접 연결합니다.
@@ -92,3 +93,6 @@ const response = await fetch(
 2. 로그인 API 서비스 환경의 서비스 URL에 사이트 도메인을 추가합니다.
 3. Callback URL에 `https://[YOUR_SUPABASE_PROJECT].supabase.co/auth/v1/callback`을 추가합니다.
 4. 클라이언트 ID와 시크릿을 Supabase 대시보드의 Authentication > Providers > Naver에 입력합니다.
+=======
+# transportation-service
+>>>>>>> dd7d61fe720ce06b86a2dc5a5c310587ddb42f46
